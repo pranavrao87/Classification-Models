@@ -6,6 +6,16 @@ The dataset used for training and evaluating the CNN consists of images of vario
 
 In the notebook I pre-process the data since there is an uneven amount of images for each class so I only use 880 images for both classes for training and 220 images for both classes for testing. 
 
+In order to get access to the data without downloading the entire dataset you need to use the Kaggle API Key and for that you need to create an account. Once you create an account go to your account and click on create a new token.
+
+<img width="467" alt="image" src="https://github.com/pranavrao87/Waste-Classification/assets/108501622/006083b8-f493-4811-b95a-5403b0888bc0">
+
+Then once done with that go to your google colab notebook and upload the key into the local runtime environment
+
+<img width="686" alt="image" src="https://github.com/pranavrao87/Waste-Classification/assets/108501622/3b7b0f17-46db-45a1-9c48-cbdace491af0">
+
+Then the rest of the notebook and code should work.
+
 The dataset structure should look like this:
 DATASET
 |
@@ -38,10 +48,5 @@ This model consists of a series of convolutional layers followed by max-pooling 
 
 Feel free to experiment with different CNN architectures, hyperparameters, and data augmentation techniques to improve the model's performance.
 
-Acknowledgments
-This project is inspired by the need to promote waste sorting and recycling. The CNN architecture and training process are simplified for educational purposes.
-
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 
