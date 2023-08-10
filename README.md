@@ -17,20 +17,21 @@ Then once done with that go to your google colab notebook and upload the key int
 Then the rest of the notebook and code should work.
 
 The dataset structure should look like this:
-DATASET
-|
-| --- TRAIN
+
+      DATASET
+      |
+      | --- TRAIN
+            |-- O
+            |-- R
+      |
+      | --- TEST
+            |-- O
+            |-- R
+      |
+      |
+      EXTRA
       |-- O
       |-- R
-|
-| --- TEST
-      |-- O
-      |-- R
-|
-EXTRA
-|
-|-- O
-|-- R
 
 The Extra folder is for all the extra images that weren't used in order to provide the model with an even amount of training and testing images for both types of data. It is also placed outside of the main DATASET folder intentionally in order to avoid any confusion.
 
