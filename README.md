@@ -1,12 +1,12 @@
-# Organic vs. Recyclable Waste Classification using Convolutional Neural Network (CNN)
+# Binary and Multiclass Classification using Convolutional Neural Network (CNN)
 This repository contains a simple Convolutional Neural Network (CNN) designed to differentiate between organic and recyclable waste items. The CNN model is trained on a labeled dataset of waste images and is capable of classifying new waste items into one of these two categories. As of now it is roughly 85% accurate 
 
 ## Dataset
-The dataset used for training and evaluating the CNN consists of images of various waste items, divided into two classes: organic (O) and recyclable (R). It was gotten of Kaggle, https://www.kaggle.com/datasets/techsash/waste-classification-data.
+The dataset used for training and evaluating these CNNs consists of images of various items, divided into two or more classes. All of the datasets were taken off Kaggle.
 
-In the notebook I pre-process the data since there is an uneven amount of images for each class so I only use 880 images for both classes for training and 220 images for both classes for testing. 
+In the notebooks I pre-process the data since there is usually an uneven amount of images for each class and the training and testing folders. 
 
-In order to get access to the data without downloading the entire dataset you need to use the Kaggle API Key and for that you need to create an account. Once you create an account go to your account and click on create a new token.
+In order to get access to the dataset(s) without downloading the entire dataset you need to use the Kaggle API Key and for that you need to create an account. Once you create an account go to your account and click on create a new token.
 
 <img width="467" alt="image" src="https://github.com/pranavrao87/Waste-Classification/assets/108501622/006083b8-f493-4811-b95a-5403b0888bc0">
 
@@ -15,25 +15,6 @@ Then once done with that go to your google colab notebook and upload the key int
 <img width="686" alt="image" src="https://github.com/pranavrao87/Waste-Classification/assets/108501622/3b7b0f17-46db-45a1-9c48-cbdace491af0">
 
 Then the rest of the notebook and code should work.
-
-The dataset structure should look like this:
-
-      DATASET
-      |
-      | --- TRAIN
-            |-- O
-            |-- R
-      |
-      | --- TEST
-            |-- O
-            |-- R
-      |
-      |
-      EXTRA
-      |-- O
-      |-- R
-
-The Extra folder is for all the extra images that weren't used in order to provide the model with an even amount of training and testing images for both types of data. It is also placed outside of the main DATASET folder intentionally in order to avoid any confusion.
 
 ## Requirements
 Python (>=3.6)
