@@ -21,7 +21,7 @@ Python (>=3.6)
 TensorFlow (>=2.0)
 NumPy
 Matplotlib (for visualization)
-Gooogle Colab
+Google Colab
 
 ## Base Model Architecture
 The CNN architecture used for this classification task was taken from the CNN explainer website, the TinyVGG model. https://poloclub.github.io/cnn-explainer/
