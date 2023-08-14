@@ -1,5 +1,5 @@
 # Binary and Multiclass Classification using Convolutional Neural Network (CNN)
-This repository contains a simple Convolutional Neural Network (CNN) designed to differentiate between organic and recyclable waste items. The CNN model is trained on a labeled dataset of waste images and is capable of classifying new waste items into one of these two categories. As of now it is roughly 85% accurate 
+This repository contains multiple Convolutional Neural Network (CNN) trained on different datasets from waste to pneumonia. 
 
 ## Dataset
 The dataset used for training and evaluating these CNNs consists of images of various items, divided into two or more classes. All of the datasets were taken off Kaggle.
