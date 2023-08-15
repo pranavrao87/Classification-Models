@@ -1,5 +1,9 @@
 # Binary and Multiclass Classification using Convolutional Neural Network (CNN)
 This repository contains multiple Convolutional Neural Network (CNN) trained on different datasets from waste to pneumonia. 
+As of now:
+- (Binary) Waste Classification accuracy: ≈85%
+- (Binary) Pneumonia Classification accuracy: ≈85%
+
 
 ## Dataset
 The dataset used for training and evaluating these CNNs consists of images of various items, divided into two or more classes. All of the datasets were taken off Kaggle.
